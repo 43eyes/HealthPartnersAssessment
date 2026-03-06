@@ -103,7 +103,8 @@ def main():
             except Exception as e:
                 print(f"Failed: {item['url']} - {e}")
 
-    print(f"Successfully downloaded {successful_downloads}/{len(download_list)} files")
+    if len(download_list) > 0:
+        print(f"Successfully downloaded {successful_downloads}/{len(download_list)} files")
 
     # Save tracking state for next run
     with open("tracking.json", "w") as f:
