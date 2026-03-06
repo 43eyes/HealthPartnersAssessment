@@ -13,6 +13,8 @@ Python script that pulls all Hospital-themed datasets from the CMS Provider Data
 
 If a dataset's download URL changes on an update (the URL contains a hash that can change), the old file gets cleaned up automatically after the new one downloads successfully.
 
+In production I'd add logic to handle datasets being removed from the catalog, but the current scope focuses on new/updated files.
+
 ## Requirements
 
 - Python 3.7+
