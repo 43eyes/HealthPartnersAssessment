@@ -1,6 +1,6 @@
 # CMS Hospital Data Downloader
 
-Python script that pulls all Hospital-themed datasets from the CMS Provider Data metastore, cleans up the column headers to snake_case, and saves them as CSVs. Designed to run daily — it tracks what's been downloaded and only grabs files that are new or have been updated since the last run.
+Python script that pulls all Hospital-themed datasets from the CMS Provider Data metastore, cleans up the column headers to snake_case, and saves them as CSVs. Designed to run daily. It tracks what's been downloaded and only grabs files that are new or have been updated since the last run.
 
 ## How It Works
 
