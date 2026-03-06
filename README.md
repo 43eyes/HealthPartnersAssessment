@@ -40,7 +40,7 @@ The script is built to be idempotent so it can be scheduled to run daily:
 ## Project Structure
 
 ```
-├── main.py              # Main script
+├── DownloadCMSData.py   # Main script
 ├── requirements.txt     # Python dependencies
 ├── tracking.json        # Auto-generated, tracks last download state per dataset
 ├── downloads/           # Auto-generated, where processed CSVs are saved
