@@ -23,7 +23,7 @@ In production I'd add logic to handle datasets being removed from the catalog, b
 ## Usage
 
 ```bash
-python main.py
+python DownloadCMSData.py
 ```
 
 First run will download all Hospital datasets. Subsequent runs will only download files that have changed.
